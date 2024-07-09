@@ -1,8 +1,8 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import User
+from core.models import Cor
 
-class UserSerializer(ModelSerializer):
+class CorSerializer(ModelSerializer):
     class Meta:
-        model = User
+        model = Cor
         fields = "__all__"

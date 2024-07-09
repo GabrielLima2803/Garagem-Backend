@@ -1,8 +1,8 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import User
+from core.models import Marca
 
-class UserSerializer(ModelSerializer):
+class MarcaSerializer(ModelSerializer):
     class Meta:
-        model = User
+        model = Marca
         fields = "__all__"
